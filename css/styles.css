@@ -4,55 +4,56 @@
   font-size: 18px;
 }
 
+body {
+    background-color: silver;
+}
+
+.container {
+    background-color: white;
+}
+
 .header {
-	padding-top: 5px;
+    padding: 0 15px;
+    background-color: #BA8A92;
 }
 
 .leftArea {
-	position: absolute;
-	left: 10px;
-	top: 70px;
-	bottom: 20px;
-	width: 260px;
-	border:solid 1px #CCCCCC;
-	overflow-y: scroll;
+    
 }
 
 .mainArea {
-	position: absolute;
-	top: 70px;
-	bottom: 20px;
-	left:300px;
-	overflow-y: scroll;
-	width:300px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 0;
 }
 
-.rightArea {
-	position: absolute;
-	top: 70px;
-	bottom: 20px;
-	left:650px;
-	overflow-y: scroll;
-	width:270px;
+.rightArea {/*
+    position: absolute;
+    top: 70px;
+    bottom: 20px;
+    left:650px;
+    overflow-y: scroll;
+    width:270px;*/
 }
 
 ul {
-	list-style-type: none;
-	padding-left: 0px;
-	margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
 }
 
 li a { 
-	text-decoration:none;
-	display: block;
-	color: #000000;
-	border-bottom:solid 1px #CCCCCC;
-	padding: 8px;
+    text-decoration:none;
+    display: block;
+    color: #000000;
+    border-bottom:solid 1px #CCCCCC;
+    padding: 8px;
 }
 
 li a:hover {
-	background-color: #4B0A1E;
-	color: #BA8A92;
+    background-color: #4B0A1E;
+    color: #BA8A92;
+    text-decoration: none;
 }
 
 input, textarea {
@@ -64,25 +65,25 @@ input, textarea {
 .mainArea input {
   margin-bottom:15px;
   margin-top:5px;
-  width:280px;
+  padding-left: 5px;
 }
 
 textarea {
-	margin-bottom:15px;
-  	margin-top:5px;
-	height: 200px;
-  	width:250px;
+    margin-bottom:15px;
+    margin-top:5px;
+    height: 200px;
+    width:60%;
 }
 
 label {
-	display:block;
+    display:block;
 }
 
 button {
-	padding:6px;
+    padding:6px;
 }
 
 
 #searchKey {
-	width:160px;
+    /* width:200px; */
 }
