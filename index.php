@@ -23,11 +23,18 @@
         <div class="row">
             <ul class="nav navbar-nav col-md-1 col-xs-12">
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filtre <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Vins français</a></li>
-                  <li><a href="#">Vins américains</a></li>
-                  <li><a href="#">Tous les vins</a></li>
+                <button class="dropdown-toggle" data-toggle="dropdown" type="button" id="dropdownMenu1" aria-haspopup="true" aria-expanded="false">
+                    Filtres <span class="caret"></span>
+                </button>
+                <ul id="filter" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#" data-identity="country" data-value="all">Tous les vins</a></li>
+                  <li class="dropdown-header">Par pays</li>
+                  <li><a href="#" data-identity="country" data-value="France">France</a></li>
+                  <li><a href="#" data-identity="country" data-value="USA">USA</a></li>
+                  <li class="dropdown-header">Par année</li>
+                  <li><a href="#" data-identity="year" data-value="2005">2005</a></li>
+                  <li><a href="#" data-identity="year" data-value="2009">2009</a></li>
+                  <li><a href="#" data-identity="year" data-value="2010">2010</a></li>
                 </ul>
               </li>
             </ul>
